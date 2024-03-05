@@ -1,0 +1,148 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mask {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    background: linear-gradient(90deg, rgba(64, 255, 0, 0.137) 0%, rgba(5, 135, 0, 0.49343487394957986) 100%);
+    z-index: -1;
+}
+
+header {
+    margin: 34px 0 100px 76px;
+}
+
+.link-header {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989D9C;
+    cursor: pointer;
+    margin-right: 23px;
+}
+
+.button-header {
+    background: #665AE1;
+    border-radius: 20.5px;
+    height: 41px;
+    width: 130px;
+    border: none;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.logo {
+    height: 500px;
+    width: 568px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+
+}
+
+p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #464646;
+    width: 515px;
+    margin-top: 50px;
+    margin-bottom: 65px;
+}
+
+.button-main {
+    background: #ADFF00;
+    border-radius: 30px;
+    width: 239px;
+    height: 64px;
+    border: none;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: black;
+}
+
+@media screen and (max-width: 900px) {
+    .mask {
+        height: 100%;
+        width: 100%;
+    }
+
+    header {
+        display: none;
+    }
+
+
+    img {
+        position: relative;
+        margin-top: 300px;
+        right: 70px;
+    }
+
+    .texto {
+        display: grid;
+        right: 186px;
+        position: fixed;
+        gap: 20px;
+    }
+
+    h1 {
+        font-size: 71px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        display: block;
+        margin: 0 auto;
+    }
+
+    h2 {
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        display: block;
+        margin: 0 auto;
+    }
+
+    p {
+        display: none;
+    }
+
+    .button-main {
+        display: block;
+        margin: 17px auto;
+        font-size: 37px;
+        width: 265px;
+        height: 71px;
+    }
+}
